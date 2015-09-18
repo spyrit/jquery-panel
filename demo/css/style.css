@@ -1,0 +1,62 @@
+body {
+    font-family: "Lato","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    color: #ABABAB;
+}
+
+h1, h2, h3 {
+    font-family: 'Pacifico', cursive;
+    color: #d35400
+}
+
+a {
+    color: #D35400;;
+}
+
+a:hover {
+    color: #34495e;
+}
+
+.container {
+    width: 600px;	
+}
+
+.bg-dark {
+    background: #34495e;
+    color: white;
+}
+
+.bg-dark h1, .bg-dark h2, .bg-dark h3 {
+    color: white;
+}
+
+.wrapper {
+    padding: 20px 0;
+}
+
+header {
+    box-shadow: 2px 0 5px rgba(0,0,0,0.5);
+
+}
+
+header ul.nav li {
+    display: inline-block;
+}
+
+header ul.nav li:hover a {
+    background: transparent;
+}
+
+p {
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 0.03em;
+}
+
+footer .container {
+    border-top: 1px solid #F1F1F1;
+    padding-top: 30px;
+}
+
+footer p {
+    font-size: 0.85em;
+}
